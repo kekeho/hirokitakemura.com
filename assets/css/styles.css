@@ -1,0 +1,20 @@
+.col {
+  background-color:black;
+}
+
+.row {
+}
+
+.row.name-title {
+  background-color:black;
+}
+
+.col-lg-12.offset-1.offset-sm-1.offset-md-1.offset-lg-1.first-contact {
+  padding-top:2em;
+  padding-bottom:2em;
+}
+
+.section, h1 {
+  font-weight:bold;
+}
+
