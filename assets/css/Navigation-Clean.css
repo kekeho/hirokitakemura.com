@@ -79,3 +79,7 @@
   color:inherit;
 }
 
+.navbar.navbar-light.navbar-expand-md.navigation-clean {
+  padding-bottom:3em;
+}
+

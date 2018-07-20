@@ -12,9 +12,13 @@ function setup(){
 function draw(){
     counterUpdate();
     background(0);
-    vhsString('Hiroki', WidthEm(10), WidthEm(5), heightEm(20), 10, 2, 3);
-    vhsString('Takemura', WidthEm(10), WidthEm(5), heightEm(20)+WidthEm(10)+10, 10, 2, 0);
-    vhsString('マイ ポートフォリオ サイト', WidthEm(3), WidthEm(5), heightEm(20)+WidthEm(20)+40, 10, 2, 0);
+    
+    //title
+    vhsString('Hiroki', widthEm(WIDTH, 10), widthEm(WIDTH, 5), heightEm(HEIGHT, 20), 10, 2, 3);
+    vhsString('Takemura', widthEm(WIDTH, 10), widthEm(WIDTH, 5), heightEm(HEIGHT, 20)+widthEm(WIDTH, 10)+10, 10, 2, 0);
+    vhsString('ヒロキ タケムラについて知る', widthEm(WIDTH, 3), widthEm(WIDTH, 5), heightEm(HEIGHT, 20)+widthEm(WIDTH, 20)+40, 10, 2, 0);
+    
+    arrow(WIDTH/2, heightEm(HEIGHT, 90), widthEm(WIDTH, 5), heightEm(HEIGHT, 1));
 }
 
 function counterUpdate(){
@@ -23,12 +27,4 @@ function counterUpdate(){
     } else {
         counter++;
     }
-}
-
-function WidthEm(parcent){
-    return WIDTH * parcent/100
-}
-
-function heightEm(parcent){
-    return HEIGHT * parcent/100
 }
