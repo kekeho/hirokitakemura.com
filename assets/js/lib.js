@@ -1,6 +1,7 @@
 function vhsString(string, px, x, y, noise_px, frame, noise_line){
     textStyle(BOLD);
     textAlign(LEFT, TOP);
+    noStroke();
 
     pink_x = blue_x = green_x = x
     pink_y = blue_y = green_y = y;
@@ -60,3 +61,18 @@ function widthEm(canvas_width, parcent){
 function heightEm(canvas_height, parcent){
     return canvas_height * parcent/100
 }
+
+function link(url, winName, options) {
+  winName && open(url, winName, options) || (location = url);
+}
+
+function getDevice(){
+    let ua = navigator.userAgent;
+    if(ua.indexOf('iPhone') > 0 || ua.indexOf('iPod') > 0 || ua.indexOf('Android') > 0 && ua.indexOf('Mobile') > 0){
+        return 'sp';
+    }else if(ua.indexOf('iPad') > 0 || ua.indexOf('Android') > 0){
+        return 'tab';
+    }else{
+        return 'other';
+    }
+};

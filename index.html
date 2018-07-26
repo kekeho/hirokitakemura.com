@@ -6,14 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>hirokitakemura.com</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Libre+Barcode+128+Text">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
     <link rel="stylesheet" href="assets/css/Navigation-Clean.css">
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
 <body>
-    <div class="row" id="name-title"></div>
+    <div class="row" data-aos="zoom-out" data-aos-duration="550" data-aos-once="true" id="name-title"></div>
     <div>
-        <nav class="navbar navbar-light navbar-expand-md navigation-clean">
+        <nav class="navbar navbar-light navbar-expand-md navigation-clean" id="go">
             <div class="container"><a class="navbar-brand" href="#">ヒロキ タケムラ</a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse"
                     id="navcol-1">
@@ -27,16 +29,107 @@
             </div>
         </nav>
     </div>
-    <div class="row">
-        <div class="col-lg-11 offset-1 offset-sm-1 offset-md-1 offset-lg-1 first-contact">
-            <h1 class="section">圧倒的なヒロキ タケムラ</h1>
-            <p>ｲｯﾇって、かわいいなぁ。つまり、まだ製作中ですよ。</p>
+    <div class="container skill-container">
+        <div class="row">
+            <div class="col">
+                <h1 class="center-topic-header">圧倒的なヒロキ タケムラ</h1>
+                <p class="center-topic-sub">ヒロキ タケムラのパワフルな仕様</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6 col-lg-3 offset-lg-0 skill-box">
+                <div class="row skill-row">
+                    <div class="col">
+                        <h3 class="skill-box-heading">Python</h3>
+                    </div>
+                </div>
+                <div class="row skill-row">
+                    <div class="col"><img src="assets/img/skill-icon/python.svg" alt="python image"></div>
+                </div>
+                <div class="row skill-row">
+                    <div class="col">
+                        <p class="skill-box-p">Python歴1年</p>
+                        <p class="skill-box-p"></p>
+                        <p class="skill-box-p-end">メインに使っている言語がこいつ</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-3 offset-lg-0 skill-box">
+                <div class="row skill-row">
+                    <div class="col">
+                        <h3 class="skill-box-heading">git</h3>
+                    </div>
+                </div>
+                <div class="row skill-row">
+                    <div class="col"><img src="assets/img/skill-icon/git.png"></div>
+                </div>
+                <div class="row skill-row">
+                    <div class="col">
+                        <p class="skill-box-p">gitを用いた開発経験あり(インターン・プロコン・文化祭などで)</p>
+                        <p class="skill-box-p-end">git-flowはいいぞ</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-3 offset-lg-0 skill-box">
+                <div class="row skill-row">
+                    <div class="col">
+                        <h3 class="skill-box-heading">p5.js/Processing</h3>
+                    </div>
+                </div>
+                <div class="row skill-row">
+                    <div class="col"><img src="assets/img/skill-icon/p5js.svg" style="height:165px;"></div>
+                </div>
+                <div class="row skill-row">
+                    <div class="col">
+                        <p class="skill-box-p">メディアアート用言語Processing及びp5.js</p>
+                        <p class="skill-box-p-end">このサイトの一番上のアニメーションもp5.jsで作成した</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-3 offset-lg-0 skill-box">
+                <div class="row skill-row">
+                    <div class="col">
+                        <h3 class="skill-box-heading">Debian Linux</h3>
+                    </div>
+                </div>
+                <div class="row skill-row">
+                    <div class="col"><img src="assets/img/skill-icon/tux.svg"></div>
+                </div>
+                <div class="row skill-row">
+                    <div class="col">
+                        <p class="skill-box-p">Linux歴4年</p>
+                        <p class="skill-box-p">3年ほどメインOSとして使用</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-3 offset-lg-0 skill-box">
+                <div class="row skill-row">
+                    <div class="col">
+                        <h3 class="skill-box-heading">Photograph</h3>
+                    </div>
+                </div>
+                <div class="row skill-row">
+                    <div class="col"><img class="img-thumbnail" src="assets/img/skill-icon/photo.jpg" alt="photo image"></div>
+                </div>
+                <div class="row skill-row">
+                    <div class="col">
+                        <p class="skill-box-p">アマチュアカメラマン</p>
+                        <p class="skill-box-p">Sony α7Ⅱがメイン機</p>
+                        <p class="skill-box-p">2018年度長野高専写真同好会長を務める</p>
+                        <p class="skill-box-p-end">Adobe Lightroomも使いこなせる</p>
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
         </div>
     </div>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-animation.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.1/p5.js"></script>
     <script src="assets/js/lib.js"></script>
+    <script src="assets/js/LibreBarcode128Text-Regular.js"></script>
     <script src="assets/js/name-title.js"></script>
 </body>
 

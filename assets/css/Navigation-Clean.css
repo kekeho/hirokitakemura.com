@@ -83,3 +83,58 @@
   padding-bottom:3em;
 }
 
+.center-topic {
+  text-align:center;
+}
+
+.pad-top-1em {
+  padding-top:1em;
+}
+
+.center-topic-header {
+  text-align:center;
+  padding-top:1em;
+}
+
+.center-topic-sub {
+  text-align:center;
+  font-size:1.5em;
+  padding-bottom:1em;
+}
+
+.skill-box {
+  padding-top:0.5em;
+  padding-bottom:0.5em;
+}
+
+.skill-box-heading {
+  padding-top:0.5em;
+  text-align:center;
+}
+
+.container.skill-container {
+}
+
+.row {
+}
+
+.row.skill-row {
+  background-color:rgb(238,238,238);
+}
+
+img {
+  width:inherit;
+  padding-top:1em;
+  padding-bottom:1em;
+}
+
+.skill-box-p {
+  padding-bottom:0;
+  margin-bottom:0;
+  text-align:center;
+}
+
+.skill-box-p-end {
+  text-align:center;
+}
+
