@@ -19,3 +19,18 @@
   font-weight:bold;
 }
 
+ul.skill-items.right-side {
+  font-size:1.1rem;
+  margin-left:4.8rem;
+  border-left:solid thin;
+  border-color:rgb(208,208,208);
+}
+
+ui.skill-items.right-side {
+  margin-left:4.1rem;
+}
+
+.center-topic-sub.endline {
+  margin-bottom:1rem;
+}
+

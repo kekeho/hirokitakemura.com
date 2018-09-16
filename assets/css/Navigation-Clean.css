@@ -98,8 +98,8 @@
 
 .center-topic-sub {
   text-align:center;
-  font-size:1.5em;
-  padding-bottom:1em;
+  font-size:1.5rem;
+  margin-bottom:0;
 }
 
 .skill-box {
@@ -136,5 +136,40 @@ img {
 
 .skill-box-p-end {
   text-align:center;
+}
+
+.gray {
+  -webkit-filter:grayscale(100%);
+  filter:grayscale(100%);
+}
+
+p.skill-item {
+  font-size:1.3rem;
+  padding-left:2rem;
+}
+
+.center-topic-comment {
+  text-align:center;
+  font-size:1rem;
+  color:rgb(74,74,74);
+}
+
+li.skill-item {
+  padding:0.5rem 0;
+}
+
+.col.right-side {
+  border-left:solid thin;
+}
+
+h1.right-side {
+  padding-left:2rem;
+}
+
+ul.skill-items {
+  font-size:1.1rem;
+  margin-left:3rem;
+  border-left:solid thin;
+  border-color:rgb(208,208,208);
 }
 
