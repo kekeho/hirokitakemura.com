@@ -158,10 +158,6 @@ li.skill-item {
   padding:0.5rem 0;
 }
 
-.col.right-side {
-  border-left:solid thin;
-}
-
 h1.right-side {
   padding-left:2rem;
 }
@@ -171,5 +167,10 @@ ul.skill-items {
   margin-left:3rem;
   border-left:solid thin;
   border-color:rgb(208,208,208);
+}
+
+.footer-p {
+  color:rgb(230,230,230);
+  text-align:center;
 }
 
